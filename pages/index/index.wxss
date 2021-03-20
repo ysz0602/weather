@@ -4,6 +4,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background-color: #0c5a84;
+  color: #ffffff;
 }
 .detail {
   width: 100%;
@@ -20,8 +22,8 @@
   text-align: center;
 }
 text {
-  font-size: 80rpx;
-  color: #3c5f81;
+  font-size: 60rpx;
+  color: #b7d6e7;
 }
 image {
   width: 440rpx;

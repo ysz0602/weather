@@ -3,7 +3,7 @@
     <view>当前位置:{{region}}</view>
   </picker>
   <text>{{now.temp}}°C {{now.text}}</text>
-  <image src="/images/{{now.icon}}.png"></image>
+  <image src="/images/{{now.icon ? now.icon : '999'}}.png"></image>
   <view class="detail">
     <view class="bar">
       <view class="box">湿度</view>
